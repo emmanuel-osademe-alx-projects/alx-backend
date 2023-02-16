@@ -47,4 +47,4 @@ class LFUCache(BaseCaching):
             del self.frecuency_dict[key]
             self.frecuency_dict[key] = frecuency + 1
 
-        return
+        return item
